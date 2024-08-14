@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  background-color: aliceblue;
+}
+
+.container {
+  width: 40%;
+  margin: 40px auto;
+  background: #1f2937;
+  padding: 30px;
+  height: 60vh;
+}
+
+h1 {
+  color: #ffff;
+}
+
+.green {
+  color: #4adf86;
+}
+
+p {
+  color: #fff;
+}
+.btn {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #4adf86;
+}
+
+label {
+  margin-top: 20px;
+}
+
+input {
+  padding: 8px;
+  border-radius: 4px;
+  border: none;
+  background-color: #333941;
+}
+hr {
+  margin: 20px auto;
+  width: 100%;
+  font-weight: 100;
+  border-top: none;
+  border-color: #1f2631;
+}
+
+.pass-filed {
+  display: flex;
+  flex-direction: row;
+}
+
+#passOne {
+  margin-right: 5px;
+}
+
+#passTwo {
+  margin-left: 5px;
+}
+
+#passOne,
+#passTwo {
+  color: #4adf86;
+  height: 12px;
+  text-align: center;
+  padding: 10px;
+  background: #303841;
+  width: 50%;
+  border-radius: 5px;
+  font-size: 14px;
+}

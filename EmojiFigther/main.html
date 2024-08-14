@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Test EL</title>
+  </head>
+  <body>
+    <h1>Test El</h1>
+
+    <div id="name"></div>
+    <button id="clickMe">Click Now</button>
+
+    <script>
+      let firsrName = document.getElementById("name");
+      let clickMe = document.getElementById("clickMe");
+      clickMe.addEventListener("click", function () {
+        firsrName.textContent = "Welcome to New Js";
+      });
+    </script>
+  </body>
+</html>
