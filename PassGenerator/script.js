@@ -7,11 +7,12 @@ function passwdButton() {
   let passwdOne = "";
   let passwdTwo = "";
   for (let i = 0; i < 16; i++) {
-    let randomPasswd = Math.floor(Math.random() * characters.length);
-    passwdOne += passwdFiledOne.textContent = characters[randomPasswd];
+    let randomPasswdOne = Math.floor(Math.random() * characters.length);
+    passwdOne += passwdFiledOne.textContent = characters[randomPasswdOne];
     passwdFiledOne.textContent = passwdOne;
 
-    passwdTwo += passwdFiledTwo.textContent = characters[randomPasswd];
+    let randomPasswdTwo = Math.floor(Math.random() * characters.length);
+    passwdTwo += passwdFiledTwo.textContent = characters[randomPasswdTwo];
     passwdFiledTwo.textContent = passwdTwo;
   }
 }
